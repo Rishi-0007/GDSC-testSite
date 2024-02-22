@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #f4f4f4;
+}
+
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main-layout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 30px;
+}
+.logo img{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+}
